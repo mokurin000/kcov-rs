@@ -1,0 +1,9 @@
+[package]
+name = "kcov-rs"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+
+[dependencies]
+exitcode = "1.1.2"
+nix = { version = "0.29.0", features = ["fs", "ioctl", "mman"] }
